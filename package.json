@@ -1,11 +1,8 @@
 {
-    "name": "n-c-component-library",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/joeythelantern/Component-Library.git"
-    },
-    "version": "0.0.2",
-    "description": "A component library for getting people started with easy to re-use components for everyday projects.",
+    "name": "heaty566-react-ui",
+    "repository": "https://github.com/joeythelantern/Component-Library.git",
+    "version": "0.0.1",
+    "description": "A component library",
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
     "files": [
@@ -16,12 +13,13 @@
         "build:esm": "tsc",
         "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
     },
-    "author": "The Nerdy Canuck",
+    "author": "Pham Vinh Nhan",
     "license": "MIT",
     "devDependencies": {
         "@types/node": "^17.0.21",
         "@types/react": "^17.0.37",
         "@types/react-dom": "^17.0.11",
+        "prettier": "^2.7.1",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
         "typescript": "^4.5.2"
