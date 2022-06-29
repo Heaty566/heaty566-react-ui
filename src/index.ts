@@ -1,6 +1,6 @@
-import * as hooks from './hooks';
-import * as contexts from './contexts';
-import * as components from './components';
-import * as utils from './utils';
+import * as TNHooks from './hooks';
+import * as TNContexts from './contexts';
+import * as TNComponents from './components';
+import * as TNUtils from './utils';
 
-export { components, contexts, hooks, utils };
+export { TNComponents, TNContexts, TNHooks, TNUtils };

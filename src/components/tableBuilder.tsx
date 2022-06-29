@@ -26,7 +26,7 @@ export const TableBuilder: React.FC<TableBuilderProps> = ({ tableData, values, t
                             <th
                                 scope="col"
                                 key={index}
-                                className={`py-3.5 px-2 text-left text-sm font-semibold text-gray-900 
+                                className={`py-4 px-2 text-left text-sm font-semibold text-gray-900 
                                 ${index === 0 ? ' pl-4' : index === tableData.length - 1 ? 'pr-4' : ''}`}
                             >
                                 {item.label}

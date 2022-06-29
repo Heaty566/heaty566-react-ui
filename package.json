@@ -1,7 +1,6 @@
 {
-    "name": "heaty566-react-ui",
-    "repository": "https://github.com/joeythelantern/Component-Library.git",
-    "version": "0.0.1",
+    "name": "heaty-react-ui",
+    "version": "0.0.4",
     "description": "A component library",
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
